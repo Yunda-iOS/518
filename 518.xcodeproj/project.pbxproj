@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FDBD906854226BF81692F61 /* libPods-518.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C30CF8C35EA57C05652BF0F /* libPods-518.a */; };
+		B5163BAE26AEA97B00A7B9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5163BAC26AEA97B00A7B9D8 /* Main.storyboard */; };
+		B5163BB026AEA97C00A7B9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5163BAF26AEA97C00A7B9D8 /* Assets.xcassets */; };
+		B5163BB326AEA97C00A7B9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5163BB126AEA97C00A7B9D8 /* LaunchScreen.storyboard */; };
+		B5163BB626AEA97C00A7B9D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163BB526AEA97C00A7B9D8 /* main.m */; };
+		B5163C4026AFF2BC00A7B9D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C0D26AFF2BC00A7B9D8 /* AppDelegate.m */; };
+		B5163C4126AFF2BC00A7B9D8 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = B5163C0F26AFF2BC00A7B9D8 /* test.json */; };
+		B5163C4226AFF2BC00A7B9D8 /* NXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C1226AFF2BC00A7B9D8 /* NXBaseModel.m */; };
+		B5163C4326AFF2BC00A7B9D8 /* NXBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C1426AFF2BC00A7B9D8 /* NXBaseObject.m */; };
+		B5163C4426AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C1826AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewModel.m */; };
+		B5163C4526AFF2BC00A7B9D8 /* fuCai3D.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5163C1B26AFF2BC00A7B9D8 /* fuCai3D.plist */; };
+		B5163C4626AFF2BC00A7B9D8 /* YD518PlanFuCai3DProbabilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C1D26AFF2BC00A7B9D8 /* YD518PlanFuCai3DProbabilityModel.m */; };
+		B5163C4726AFF2BC00A7B9D8 /* YD518PlanFuCai3DModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C2026AFF2BC00A7B9D8 /* YD518PlanFuCai3DModel.m */; };
+		B5163C4826AFF2BD00A7B9D8 /* YD518PlanFuCai3DMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C2226AFF2BC00A7B9D8 /* YD518PlanFuCai3DMainView.m */; };
+		B5163C4926AFF2BD00A7B9D8 /* YD518PlanFuCai3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C2626AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewController.m */; };
+		B5163C4B26AFF2BD00A7B9D8 /* NXNetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C3E26AFF2BC00A7B9D8 /* NXNetWorkHelper.m */; };
+		B5163C4C26AFF2BD00A7B9D8 /* NXNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C3F26AFF2BC00A7B9D8 /* NXNetworkCache.m */; };
+		B5163C4F26AFF35F00A7B9D8 /* YD518PlanHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C4E26AFF35F00A7B9D8 /* YD518PlanHomeViewController.m */; };
+		B5163C5426AFFDC700A7B9D8 /* YD518PlanHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C5326AFFDC700A7B9D8 /* YD518PlanHomeModel.m */; };
+		B5163C5726B0007000A7B9D8 /* YD518PlanHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C5626B0007000A7B9D8 /* YD518PlanHomeViewModel.m */; };
+		B5163C5B26B00E4000A7B9D8 /* YD518PlanHomeMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C5A26B00E4000A7B9D8 /* YD518PlanHomeMainView.m */; };
+		B5163C5E26B0100F00A7B9D8 /* YD518PlanHomeViewMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5163C5D26B0100F00A7B9D8 /* YD518PlanHomeViewMainCell.m */; };
+		B56CA78A26B0429D0038DA14 /* fucai.json in Resources */ = {isa = PBXBuildFile; fileRef = B56CA78926B0429D0038DA14 /* fucai.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C30CF8C35EA57C05652BF0F /* libPods-518.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-518.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A04491F4E7DB93A56825239 /* Pods-518.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-518.release.xcconfig"; path = "Target Support Files/Pods-518/Pods-518.release.xcconfig"; sourceTree = "<group>"; };
+		ACD6EA776DDD879F519D4E4B /* Pods-518.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-518.debug.xcconfig"; path = "Target Support Files/Pods-518/Pods-518.debug.xcconfig"; sourceTree = "<group>"; };
+		B5163BA026AEA97B00A7B9D8 /* 518.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 518.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5163BAD26AEA97B00A7B9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5163BAF26AEA97C00A7B9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5163BB226AEA97C00A7B9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5163BB426AEA97C00A7B9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5163BB526AEA97C00A7B9D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5163C0C26AFF2BC00A7B9D8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5163C0D26AFF2BC00A7B9D8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5163C0F26AFF2BC00A7B9D8 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		B5163C1126AFF2BC00A7B9D8 /* NXBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBaseObject.h; sourceTree = "<group>"; };
+		B5163C1226AFF2BC00A7B9D8 /* NXBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBaseModel.m; sourceTree = "<group>"; };
+		B5163C1326AFF2BC00A7B9D8 /* NXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBaseModel.h; sourceTree = "<group>"; };
+		B5163C1426AFF2BC00A7B9D8 /* NXBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBaseObject.m; sourceTree = "<group>"; };
+		B5163C1826AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YD518PlanFuCai3DViewModel.m; sourceTree = "<group>"; };
+		B5163C1926AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YD518PlanFuCai3DViewModel.h; sourceTree = "<group>"; };
+		B5163C1B26AFF2BC00A7B9D8 /* fuCai3D.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fuCai3D.plist; sourceTree = "<group>"; };
+		B5163C1D26AFF2BC00A7B9D8 /* YD518PlanFuCai3DProbabilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YD518PlanFuCai3DProbabilityModel.m; sourceTree = "<group>"; };
+		B5163C1E26AFF2BC00A7B9D8 /* YD518PlanFuCai3DModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YD518PlanFuCai3DModel.h; sourceTree = "<group>"; };
+		B5163C1F26AFF2BC00A7B9D8 /* YD518PlanFuCai3DProbabilityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YD518PlanFuCai3DProbabilityModel.h; sourceTree = "<group>"; };
+		B5163C2026AFF2BC00A7B9D8 /* YD518PlanFuCai3DModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YD518PlanFuCai3DModel.m; sourceTree = "<group>"; };
+		B5163C2226AFF2BC00A7B9D8 /* YD518PlanFuCai3DMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YD518PlanFuCai3DMainView.m; sourceTree = "<group>"; };
+		B5163C2326AFF2BC00A7B9D8 /* YD518PlanFuCai3DMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YD518PlanFuCai3DMainView.h; sourceTree = "<group>"; };
+		B5163C2526AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YD518PlanFuCai3DViewController.h; sourceTree = "<group>"; };
+		B5163C2626AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YD518PlanFuCai3DViewController.m; sourceTree = "<group>"; };
+		B5163C3C26AFF2BC00A7B9D8 /* NXNetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXNetWorkHelper.h; sourceTree = "<group>"; };
+		B5163C3D26AFF2BC00A7B9D8 /* NXNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXNetworkCache.h; sourceTree = "<group>"; };
+		B5163C3E26AFF2BC00A7B9D8 /* NXNetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXNetWorkHelper.m; sourceTree = "<group>"; };
+		B5163C3F26AFF2BC00A7B9D8 /* NXNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXNetworkCache.m; sourceTree = "<group>"; };
+		B5163C4D26AFF35F00A7B9D8 /* YD518PlanHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YD518PlanHomeViewController.h; sourceTree = "<group>"; };
+		B5163C4E26AFF35F00A7B9D8 /* YD518PlanHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YD518PlanHomeViewController.m; sourceTree = "<group>"; };
+		B5163C5126AFF5AC00A7B9D8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B5163C5226AFFDC700A7B9D8 /* YD518PlanHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YD518PlanHomeModel.h; sourceTree = "<group>"; };
+		B5163C5326AFFDC700A7B9D8 /* YD518PlanHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YD518PlanHomeModel.m; sourceTree = "<group>"; };
+		B5163C5526B0007000A7B9D8 /* YD518PlanHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YD518PlanHomeViewModel.h; sourceTree = "<group>"; };
+		B5163C5626B0007000A7B9D8 /* YD518PlanHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YD518PlanHomeViewModel.m; sourceTree = "<group>"; };
+		B5163C5826B001FF00A7B9D8 /* YD518PlanHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YD518PlanHeader.h; sourceTree = "<group>"; };
+		B5163C5926B00E4000A7B9D8 /* YD518PlanHomeMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YD518PlanHomeMainView.h; sourceTree = "<group>"; };
+		B5163C5A26B00E4000A7B9D8 /* YD518PlanHomeMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YD518PlanHomeMainView.m; sourceTree = "<group>"; };
+		B5163C5C26B0100F00A7B9D8 /* YD518PlanHomeViewMainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YD518PlanHomeViewMainCell.h; sourceTree = "<group>"; };
+		B5163C5D26B0100F00A7B9D8 /* YD518PlanHomeViewMainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YD518PlanHomeViewMainCell.m; sourceTree = "<group>"; };
+		B5163C5F26B029C000A7B9D8 /* fuCai3DData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fuCai3DData.json; sourceTree = "<group>"; };
+		B5163C6026B0401500A7B9D8 /* fuCai3Dtest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fuCai3Dtest.json; sourceTree = "<group>"; };
+		B56CA78926B0429D0038DA14 /* fucai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fucai.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5163B9D26AEA97B00A7B9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDBD906854226BF81692F61 /* libPods-518.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3243274BE51FAB9C60B5A022 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACD6EA776DDD879F519D4E4B /* Pods-518.debug.xcconfig */,
+				9A04491F4E7DB93A56825239 /* Pods-518.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5163B9726AEA97B00A7B9D8 = {
+			isa = PBXGroup;
+			children = (
+				B5163BA226AEA97B00A7B9D8 /* 518 */,
+				B5163BA126AEA97B00A7B9D8 /* Products */,
+				3243274BE51FAB9C60B5A022 /* Pods */,
+				EDE9EDCAD9F0CE0C41D2FCA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5163BA126AEA97B00A7B9D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5163BA026AEA97B00A7B9D8 /* 518.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5163BA226AEA97B00A7B9D8 /* 518 */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C5126AFF5AC00A7B9D8 /* PrefixHeader.pch */,
+				B5163C0A26AFF2BC00A7B9D8 /* 518Plan */,
+				B5163BAC26AEA97B00A7B9D8 /* Main.storyboard */,
+				B5163BAF26AEA97C00A7B9D8 /* Assets.xcassets */,
+				B5163BB126AEA97C00A7B9D8 /* LaunchScreen.storyboard */,
+				B5163BB426AEA97C00A7B9D8 /* Info.plist */,
+				B5163BB526AEA97C00A7B9D8 /* main.m */,
+			);
+			path = 518;
+			sourceTree = "<group>";
+		};
+		B5163C0A26AFF2BC00A7B9D8 /* 518Plan */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C0B26AFF2BC00A7B9D8 /* 518PlanEnter(入口) */,
+				B5163C1526AFF2BC00A7B9D8 /* 518PlanProject(主工程) */,
+				B5163C3A26AFF2BC00A7B9D8 /* 518PlanTools(工具) */,
+				B5163C0E26AFF2BC00A7B9D8 /* 518PlanOther(其他) */,
+			);
+			path = 518Plan;
+			sourceTree = "<group>";
+		};
+		B5163C0B26AFF2BC00A7B9D8 /* 518PlanEnter(入口) */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C0C26AFF2BC00A7B9D8 /* AppDelegate.h */,
+				B5163C0D26AFF2BC00A7B9D8 /* AppDelegate.m */,
+			);
+			path = "518PlanEnter(入口)";
+			sourceTree = "<group>";
+		};
+		B5163C0E26AFF2BC00A7B9D8 /* 518PlanOther(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C0F26AFF2BC00A7B9D8 /* test.json */,
+				B5163C1026AFF2BC00A7B9D8 /* Model */,
+				B5163C5826B001FF00A7B9D8 /* YD518PlanHeader.h */,
+			);
+			path = "518PlanOther(其他)";
+			sourceTree = "<group>";
+		};
+		B5163C1026AFF2BC00A7B9D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C1326AFF2BC00A7B9D8 /* NXBaseModel.h */,
+				B5163C1226AFF2BC00A7B9D8 /* NXBaseModel.m */,
+				B5163C1126AFF2BC00A7B9D8 /* NXBaseObject.h */,
+				B5163C1426AFF2BC00A7B9D8 /* NXBaseObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5163C1526AFF2BC00A7B9D8 /* 518PlanProject(主工程) */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C2D26AFF2BC00A7B9D8 /* 518PlanHome(主页) */,
+				B5163C1626AFF2BC00A7B9D8 /* 518Plan福彩3D */,
+				B5163C2726AFF2BC00A7B9D8 /* 518Plan双色球 */,
+				B5163C3426AFF2BC00A7B9D8 /* 518Plan大乐透 */,
+			);
+			path = "518PlanProject(主工程)";
+			sourceTree = "<group>";
+		};
+		B5163C1626AFF2BC00A7B9D8 /* 518Plan福彩3D */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C2426AFF2BC00A7B9D8 /* ViewController */,
+				B5163C1726AFF2BC00A7B9D8 /* ViewModel */,
+				B5163C1A26AFF2BC00A7B9D8 /* DataSource */,
+				B5163C1C26AFF2BC00A7B9D8 /* Model */,
+				B5163C2126AFF2BC00A7B9D8 /* View */,
+			);
+			path = "518Plan福彩3D";
+			sourceTree = "<group>";
+		};
+		B5163C1726AFF2BC00A7B9D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C1926AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewModel.h */,
+				B5163C1826AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5163C1A26AFF2BC00A7B9D8 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				B56CA78926B0429D0038DA14 /* fucai.json */,
+				B5163C1B26AFF2BC00A7B9D8 /* fuCai3D.plist */,
+				B5163C5F26B029C000A7B9D8 /* fuCai3DData.json */,
+				B5163C6026B0401500A7B9D8 /* fuCai3Dtest.json */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		B5163C1C26AFF2BC00A7B9D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C1E26AFF2BC00A7B9D8 /* YD518PlanFuCai3DModel.h */,
+				B5163C2026AFF2BC00A7B9D8 /* YD518PlanFuCai3DModel.m */,
+				B5163C1F26AFF2BC00A7B9D8 /* YD518PlanFuCai3DProbabilityModel.h */,
+				B5163C1D26AFF2BC00A7B9D8 /* YD518PlanFuCai3DProbabilityModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5163C2126AFF2BC00A7B9D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C2226AFF2BC00A7B9D8 /* YD518PlanFuCai3DMainView.m */,
+				B5163C2326AFF2BC00A7B9D8 /* YD518PlanFuCai3DMainView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5163C2426AFF2BC00A7B9D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C2526AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewController.h */,
+				B5163C2626AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B5163C2726AFF2BC00A7B9D8 /* 518Plan双色球 */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C2C26AFF2BC00A7B9D8 /* ViewController */,
+				B5163C2826AFF2BC00A7B9D8 /* ViewModel */,
+				B5163C2926AFF2BC00A7B9D8 /* DataSource */,
+				B5163C2A26AFF2BC00A7B9D8 /* Model */,
+				B5163C2B26AFF2BC00A7B9D8 /* View */,
+			);
+			path = "518Plan双色球";
+			sourceTree = "<group>";
+		};
+		B5163C2826AFF2BC00A7B9D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5163C2926AFF2BC00A7B9D8 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		B5163C2A26AFF2BC00A7B9D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5163C2B26AFF2BC00A7B9D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5163C2C26AFF2BC00A7B9D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B5163C2D26AFF2BC00A7B9D8 /* 518PlanHome(主页) */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C3226AFF2BC00A7B9D8 /* ViewController */,
+				B5163C2E26AFF2BC00A7B9D8 /* ViewModel */,
+				B5163C3026AFF2BC00A7B9D8 /* Model */,
+				B5163C3126AFF2BC00A7B9D8 /* View */,
+			);
+			path = "518PlanHome(主页)";
+			sourceTree = "<group>";
+		};
+		B5163C2E26AFF2BC00A7B9D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C5526B0007000A7B9D8 /* YD518PlanHomeViewModel.h */,
+				B5163C5626B0007000A7B9D8 /* YD518PlanHomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5163C3026AFF2BC00A7B9D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C5226AFFDC700A7B9D8 /* YD518PlanHomeModel.h */,
+				B5163C5326AFFDC700A7B9D8 /* YD518PlanHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5163C3126AFF2BC00A7B9D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C5926B00E4000A7B9D8 /* YD518PlanHomeMainView.h */,
+				B5163C5A26B00E4000A7B9D8 /* YD518PlanHomeMainView.m */,
+				B5163C5C26B0100F00A7B9D8 /* YD518PlanHomeViewMainCell.h */,
+				B5163C5D26B0100F00A7B9D8 /* YD518PlanHomeViewMainCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5163C3226AFF2BC00A7B9D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C4D26AFF35F00A7B9D8 /* YD518PlanHomeViewController.h */,
+				B5163C4E26AFF35F00A7B9D8 /* YD518PlanHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B5163C3426AFF2BC00A7B9D8 /* 518Plan大乐透 */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C3926AFF2BC00A7B9D8 /* ViewController */,
+				B5163C3526AFF2BC00A7B9D8 /* ViewModel */,
+				B5163C3626AFF2BC00A7B9D8 /* DataSource */,
+				B5163C3726AFF2BC00A7B9D8 /* Model */,
+				B5163C3826AFF2BC00A7B9D8 /* View */,
+			);
+			path = "518Plan大乐透";
+			sourceTree = "<group>";
+		};
+		B5163C3526AFF2BC00A7B9D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5163C3626AFF2BC00A7B9D8 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		B5163C3726AFF2BC00A7B9D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5163C3826AFF2BC00A7B9D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5163C3926AFF2BC00A7B9D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B5163C3A26AFF2BC00A7B9D8 /* 518PlanTools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C3B26AFF2BC00A7B9D8 /* NXNetWorkHelper */,
+			);
+			path = "518PlanTools(工具)";
+			sourceTree = "<group>";
+		};
+		B5163C3B26AFF2BC00A7B9D8 /* NXNetWorkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B5163C3D26AFF2BC00A7B9D8 /* NXNetworkCache.h */,
+				B5163C3F26AFF2BC00A7B9D8 /* NXNetworkCache.m */,
+				B5163C3C26AFF2BC00A7B9D8 /* NXNetWorkHelper.h */,
+				B5163C3E26AFF2BC00A7B9D8 /* NXNetWorkHelper.m */,
+			);
+			path = NXNetWorkHelper;
+			sourceTree = "<group>";
+		};
+		EDE9EDCAD9F0CE0C41D2FCA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C30CF8C35EA57C05652BF0F /* libPods-518.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5163B9F26AEA97B00A7B9D8 /* 518 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5163BB926AEA97C00A7B9D8 /* Build configuration list for PBXNativeTarget "518" */;
+			buildPhases = (
+				30181F5E7B947EBA4E49CF56 /* [CP] Check Pods Manifest.lock */,
+				B5163B9C26AEA97B00A7B9D8 /* Sources */,
+				B5163B9D26AEA97B00A7B9D8 /* Frameworks */,
+				B5163B9E26AEA97B00A7B9D8 /* Resources */,
+				F42FA721C0BFD5F193AD85A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 518;
+			productName = 518;
+			productReference = B5163BA026AEA97B00A7B9D8 /* 518.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5163B9826AEA97B00A7B9D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B5163B9F26AEA97B00A7B9D8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B5163B9B26AEA97B00A7B9D8 /* Build configuration list for PBXProject "518" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5163B9726AEA97B00A7B9D8;
+			productRefGroup = B5163BA126AEA97B00A7B9D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5163B9F26AEA97B00A7B9D8 /* 518 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5163B9E26AEA97B00A7B9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5163C4526AFF2BC00A7B9D8 /* fuCai3D.plist in Resources */,
+				B5163BB326AEA97C00A7B9D8 /* LaunchScreen.storyboard in Resources */,
+				B5163C4126AFF2BC00A7B9D8 /* test.json in Resources */,
+				B56CA78A26B0429D0038DA14 /* fucai.json in Resources */,
+				B5163BB026AEA97C00A7B9D8 /* Assets.xcassets in Resources */,
+				B5163BAE26AEA97B00A7B9D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30181F5E7B947EBA4E49CF56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-518-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42FA721C0BFD5F193AD85A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-518/Pods-518-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-518/Pods-518-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-518/Pods-518-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5163B9C26AEA97B00A7B9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5163C4726AFF2BC00A7B9D8 /* YD518PlanFuCai3DModel.m in Sources */,
+				B5163C4926AFF2BD00A7B9D8 /* YD518PlanFuCai3DViewController.m in Sources */,
+				B5163C4F26AFF35F00A7B9D8 /* YD518PlanHomeViewController.m in Sources */,
+				B5163C5B26B00E4000A7B9D8 /* YD518PlanHomeMainView.m in Sources */,
+				B5163C4226AFF2BC00A7B9D8 /* NXBaseModel.m in Sources */,
+				B5163C5E26B0100F00A7B9D8 /* YD518PlanHomeViewMainCell.m in Sources */,
+				B5163C4826AFF2BD00A7B9D8 /* YD518PlanFuCai3DMainView.m in Sources */,
+				B5163C5426AFFDC700A7B9D8 /* YD518PlanHomeModel.m in Sources */,
+				B5163C4B26AFF2BD00A7B9D8 /* NXNetWorkHelper.m in Sources */,
+				B5163C4326AFF2BC00A7B9D8 /* NXBaseObject.m in Sources */,
+				B5163C4C26AFF2BD00A7B9D8 /* NXNetworkCache.m in Sources */,
+				B5163C4026AFF2BC00A7B9D8 /* AppDelegate.m in Sources */,
+				B5163C4426AFF2BC00A7B9D8 /* YD518PlanFuCai3DViewModel.m in Sources */,
+				B5163C4626AFF2BC00A7B9D8 /* YD518PlanFuCai3DProbabilityModel.m in Sources */,
+				B5163C5726B0007000A7B9D8 /* YD518PlanHomeViewModel.m in Sources */,
+				B5163BB626AEA97C00A7B9D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5163BAC26AEA97B00A7B9D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5163BAD26AEA97B00A7B9D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5163BB126AEA97C00A7B9D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5163BB226AEA97C00A7B9D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5163BB726AEA97C00A7B9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5163BB826AEA97C00A7B9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5163BBA26AEA97C00A7B9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD6EA776DDD879F519D4E4B /* Pods-518.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HF4LZZZLCU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/518/PrefixHeader.pch";
+				INFOPLIST_FILE = 518/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cdeledu.ChinaAccVideoiPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ChinaaccNetShcoolDeveloper;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B5163BBB26AEA97C00A7B9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A04491F4E7DB93A56825239 /* Pods-518.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QB25TFAH3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/518/PrefixHeader.pch";
+				INFOPLIST_FILE = 518/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cdeledu.ChinaaccQuestion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5163B9B26AEA97B00A7B9D8 /* Build configuration list for PBXProject "518" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5163BB726AEA97C00A7B9D8 /* Debug */,
+				B5163BB826AEA97C00A7B9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5163BB926AEA97C00A7B9D8 /* Build configuration list for PBXNativeTarget "518" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5163BBA26AEA97C00A7B9D8 /* Debug */,
+				B5163BBB26AEA97C00A7B9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5163B9826AEA97B00A7B9D8 /* Project object */;
+}

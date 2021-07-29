@@ -1,0 +1,49 @@
+{
+    "error_code" = 0;
+    reason = "\U67e5\U8be2\U6210\U529f";
+    result =     (
+                {
+            "lottery_id" = ssq;
+            "lottery_name" = "\U53cc\U8272\U7403";
+            "lottery_type_id" = 1;
+            remarks = "\U6bcf\U5468\U4e8c\U3001\U56db\U3001\U65e5\U5f00\U5956";
+        },
+                {
+            "lottery_id" = dlt;
+            "lottery_name" = "\U8d85\U7ea7\U5927\U4e50\U900f";
+            "lottery_type_id" = 2;
+            remarks = "\U6bcf\U5468\U4e00\U3001\U4e09\U3001\U516d\U5f00\U5956";
+        },
+                {
+            "lottery_id" = qlc;
+            "lottery_name" = "\U4e03\U4e50\U5f69";
+            "lottery_type_id" = 1;
+            remarks = "\U6bcf\U5468\U4e00\U3001\U4e09\U3001\U4e94\U5f00\U5956";
+        },
+                {
+            "lottery_id" = fcsd;
+            "lottery_name" = "\U798f\U5f693D";
+            "lottery_type_id" = 1;
+            remarks = "\U6bcf\U65e5\U5f00\U5956";
+        },
+                {
+            "lottery_id" = qxc;
+            "lottery_name" = "\U4e03\U661f\U5f69";
+            "lottery_type_id" = 2;
+            remarks = "\U6bcf\U5468\U4e8c\U3001\U4e94\U3001\U65e5\U5f00\U5956";
+        },
+                {
+            "lottery_id" = pls;
+            "lottery_name" = "\U6392\U52173";
+            "lottery_type_id" = 2;
+            remarks = "\U6bcf\U65e5\U5f00\U5956";
+        },
+                {
+            "lottery_id" = plw;
+            "lottery_name" = "\U6392\U52175";
+            "lottery_type_id" = 2;
+            remarks = "\U6bcf\U65e5\U5f00\U5956";
+        }
+    );
+}
+
